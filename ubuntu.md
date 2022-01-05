@@ -24,3 +24,20 @@ traceroute to google.co.th (172.217.26.67), 64 hops max
  11   172.217.26.67  26.694ms  26.495ms  26.554ms 
 root@test-imac:~#
 ````
+
+## route command
+````
+docker@test-imac:~/web_site$ ip route
+default via 172.16.1.1 dev enp3s0f0 proto dhcp src 172.16.1.5 metric 100 
+172.16.1.0/24 dev enp3s0f0 proto kernel scope link src 172.16.1.5 
+172.16.1.1 dev enp3s0f0 proto dhcp scope link src 172.16.1.5 metric 100 
+172.16.16.0/24 dev br-43760f592dc9 proto kernel scope link src 172.16.16.1 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.20.0.0/16 dev br-088a5d2de318 proto kernel scope link src 172.20.0.1 
+172.21.0.0/16 dev br-2a2a968cad53 proto kernel scope link src 172.21.0.1 
+172.23.0.0/16 dev br-2495835085ed proto kernel scope link src 172.23.0.1 
+172.28.0.0/16 dev br-7640b13c17a8 proto kernel scope link src 172.28.0.1 
+192.168.192.0/20 dev br-4d389140e717 proto kernel scope link src 192.168.192.1 
+192.168.224.0/20 dev br-3ae7b552cee6 proto kernel scope link src 192.168.224.1 
+docker@test-imac:~/web_site$
+````
