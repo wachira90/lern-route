@@ -2,8 +2,8 @@
 
 ## install 
 ````
-apt install inetutils-traceroute
-apt install traceroute
+apt install inetutils-traceroute -y
+apt install traceroute -y
 ````
 
 ## traceroute
