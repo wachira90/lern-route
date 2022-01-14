@@ -1,7 +1,7 @@
 # Add and Delete Static Routes on macOS (persistently)
 
 ## Problem
-I have several networks at home, including 192.168.1.0/24 and 192.168.2.0/24. A problem occurred when I connected to a VPN site because it gives a route with 192.168.2.0/23. So my traffic on 192.168.2.0/24 routed through the VPN tunnel instead of my internal home network.
+I have several networks at home, including `192.168.1.0/24` and `192.168.2.0/24` A problem occurred when I connected to a VPN site because it gives a route with `192.168.2.0/23` So my traffic on `192.168.2.0/24` routed through the VPN tunnel instead of my internal home network.
 
 Therefore, I need to add a static route on my MacBook Pro.
 
